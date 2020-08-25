@@ -1,0 +1,349 @@
+#headerlist ul li{
+	display: inline;
+}
+
+body{
+	margin: 0px;
+}
+
+#headerimage{
+	/*opacity: 0.7; */
+	background: rgb(0, 151, 19)
+	background-size: cover;
+	background-position: fixed;
+
+}
+
+#headerlist{
+	margin-top: -400px;
+	/* margin-left: 25%; */
+	text-align: center;
+	text-decoration-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+/* remove underline */
+#headerlist ul li a:hover{
+	color: darkgrey;
+}
+
+#headerlist ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+#headerlist ul li{
+	margin-left: 8px;
+	margin-right: 8px;
+	text-decoration-style: none;
+}
+
+#name{
+	margin-top: 120px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*icons*/
+
+#icons li{
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#icons li a{
+	padding: 10px;
+	color: white;
+	font-size: 1rem;
+	border-radius: 50%;
+}
+
+#icons li a:hover{
+	shape-margin: round;
+	/*color: darkgrey; */
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3)
+}
+
+#icons{
+	margin-top: -40px;
+	text-align: center;
+}
+
+#profilepicture img{
+	border-radius: 50%;
+	box-shadow: 0px 0px 6px 4px rgba(169,169,169,0.3);
+	width: 200px;
+	border-width: 10px;
+	border-color: white;
+	padding: 5px;
+	background-color: white;
+}
+
+#profilepicture{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#aboutpara{
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 30px;
+}
+
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+section:nth-child(2n){
+	background-color: white;
+}
+
+section:nth-child(2n+1){
+	background-color: gainsboro;
+}
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	color: darkblue;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+.skillbox{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skillbox1{
+	border-radius: 20px;
+	height: 25px;
+	width: 120px;
+	background-color: grey;
+	margin: 35px;
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3)
+}
+ .skillbox1 span{
+ 	color: white;
+ 	margin-left: 5px;
+ 	line-height: 25px;
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	font-weight: 500;
+ }
+
+ .eighty-five{
+ 	height: inherit;
+ 	width: 85%;
+ 	background-color: blue;
+ 	border-top-left-radius: 20px;
+ 	border-bottom-left-radius: 20px;
+ 	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3)
+ }
+
+ .ninty-five{
+ 	height: inherit;
+ 	width: 90%;
+ 	background-color: darkorange;
+ 	border-top-left-radius: 20px;
+ 	border-bottom-left-radius: 20px;
+ 	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3)
+ }
+
+ .sixty{
+ 	height: inherit;
+ 	width: 60%;
+ 	background-color: mediumseagreen;
+ 	border-top-left-radius: 20px;
+ 	border-bottom-left-radius: 20px;
+ 	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3)
+ }
+
+ .fifty{
+ 	height: inherit;
+ 	width: 50%;
+ 	background-color: green;
+ 	border-top-left-radius: 20px;
+ 	border-bottom-left-radius: 20px;
+ 	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3)
+ }
+
+.twenty{
+ 	height: inherit;
+ 	width: 20%;
+ 	background-color: purple;
+ 	border-top-left-radius: 20px;
+ 	border-bottom-left-radius: 20px;
+ 	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3)
+ }
+
+ .pimage{
+ 	height: 150px;
+ 	width: 150px;
+ 	border-radius: 10px;
+ 	margin: 40px 60px 40px 60px;
+ 	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3)
+ }
+
+ #portfolioimages{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ }
+
+ 
+ .hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 150px;
+	height: 150px;
+	margin: 40px 60px 40px 60px; 
+	background: rgba(0, 0, 0, 0.4);
+	color: #ffff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+	border-radius: 10px;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 12px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.contain{
+	border:2px solid black;
+	width:80%;
+}
+
+/* -------work experience  */
+
+.expContainer{
+	width: 80%;
+	/*border: 2px solid black; */
+	position: relative;
+	align-self: center;
+}
+
+.exp{
+	position: relative;
+	left: 5%;
+	/*border: 2px solid black; */
+	width: 30%;
+	min-height: 100px;
+	margin: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+.exp:nth-child(2n){
+	left: 60%;
+	text-align: left;
+}
+
+#timeline-divider{
+	width: 0%;
+	height: 78%;
+	border: 3px dashed lightblue;
+	position: absolute;
+	left: 50%;
+	top: 13%;
+}
+
+#aeroplane{
+	left: 80%;
+	position: sticky;
+	top: 10%;
+	transform: rotate(90deg);
+
+}
+
+
+
+/* ---------------------   */
+
+#contact{
+	background: linear-gradient(45deg, cornflowerblue , darkblue );
+	color: white;
+}
+
+#contact1{
+	width: 50%;
+	/*border:2px solid black;*/
+	padding: 10px;
+	margin-left: 20px;
+}
+
+#contact2{
+	width:50%%;
+	/*border:2px solid black;*/
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+	padding: 15px;
+}
+
+#contactdiv{
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-around; */
+}
+
+input[type="text"]{
+	margin:10px;
+	border:none;
+	border-bottom: 2px solid white;
+	width:80%;
+	background: transparent;
+	padding-bottom: 10px;
+	outline: none;
+	font-size: 15px;
+	color: white;
+}
+
+input[type="text"]: target{
+	border:none;
+	outline: none;
+}
